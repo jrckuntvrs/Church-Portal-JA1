@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,300;1,200;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  top: 0;
+}
+/**/
+.home {
+  position: relative;
+  height: 85vh;
+  background-image: linear-gradient(rgba(13, 12, 14, 0.3), rgba(5, 4, 46, 0.7)),
+    url(../images/JA1HOME.jpeg);
+  display: flex;
+  background-size: cover;
+  background-position: bottom center;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 70px 17% 60px;
+  color: #fff;
+}
+.home-content {
+  padding: 20px;
+}
+
+.home-content img {
+  height: 20vh;
+}
+.home-content h5 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #fff;
+}
+.home-content h1 {
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+.home-content h1 span {
+  color: #e02153;
+}
+.home-content p {
+  font-style: italic;
+  color: #fff;
+}
+.home-content button {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 50px;
+  background: #e02154ad;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.home-content button:hover {
+  color: #e02153;
+  background: #ffffff76;
+}

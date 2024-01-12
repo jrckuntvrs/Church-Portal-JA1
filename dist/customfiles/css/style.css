@@ -1,0 +1,1181 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,300;1,200;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  top: 0;
+}
+/********************** home content start ***********************/
+body {
+  background: linear-gradient(rgba(13, 12, 14, 0.3), rgba(5, 4, 46, 0.7)),
+      url(../images/JA1HOME.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  padding: 70px 17% 60px;
+}
+
+/*.home {
+  position: relative;
+  height: 86.4vh;
+  background-image: linear-gradient(rgba(13, 12, 14, 0.3), rgba(5, 4, 46, 0.7)),
+    url(../images/JA1HOME.jpeg);
+  display: flex;
+  background-size: cover;
+  background-position: bottom center;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 70px 17% 60px;
+  color: #fff;
+}*/
+.home-content {
+  padding: 20px;
+}
+
+.home-content img {
+  height: 20vh;
+}
+.home-content h5 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #fff;
+}
+.home-content h1 {
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+.home-content h1 span {
+  color: #e02153;
+}
+.home-content p {
+  font-style: italic;
+  color: #fff;
+}
+.home-content button {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 50px;
+  background: #e02154ad;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.home-content button:hover {
+  color: #e02153;
+  background: #ffffff76;
+}
+
+/*********************** home content ends ***********************/
+
+/****************** about content start ****************************/
+
+#about {
+  background-image: url(../images/JA1HOME2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 5%;
+}
+
+#about .about-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#about .about-container .post {
+  margin-bottom: 13px;
+  background-color: #33333379;
+  border-radius: 15px;
+  width: 340px;
+  height: 450px;
+  margin: 10px;
+}
+#about .card-image {
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 10px;
+}
+#about .card-1 {
+  background-image: url(../images/p11.jpg);
+}
+#about .card-2 {
+  background-image: url(../images/p12.jpg);
+}
+#about .card-3 {
+  background-image: url(../images/p13.jpg);
+}
+#about .card-4 {
+  background-image: url(../images/p14.jpg);
+}
+
+#about .post h3 {
+  padding: 10px;
+  color: #000;
+}
+#about .post p {
+  padding: 10px;
+  color: #000;
+}
+#about .card button {
+  background-color: #e02153;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  margin: 10px 30px 0 30px;
+}
+#about .post:hover {
+  background-color: rgb(62, 62, 62);
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.2s ease;
+}
+#about .about-container .post h3 {
+  color: white;
+  padding: 15px 0 10px 0;
+}
+#about .about-container .post p {
+  color: white;
+  padding-bottom: 20px;
+}
+#about .about-container .post button {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 50px;
+  background: #e02154ad;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+#about .about-container .post button:hover {
+  color: #e02153;
+  background: #ffffff76;
+}
+
+/************************ about content ends ****************************/
+
+/************************** contact content start ***************************/
+
+/* Reset some default styles */
+
+.contact {
+  background-image: url(../images/JA1HOME2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 1.6%;
+}
+.contact .container {
+  width: 80%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.contact .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .container .content .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.contact .content .left-side::before {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.contact .content .left-side .details {
+  margin: 14px;
+  text-align: center;
+}
+.contact .content .left-side .details i {
+  font-size: 30px;
+  color: #e02153;
+  margin-bottom: 10px;
+}
+.contact .content .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+.contact .content .left-side .details .text-one,
+.contact .content .left-side .details .text-two {
+  font-size: 14px;
+  color: #000000;
+}
+.contact .container .content .right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+.contact .container .content .right-side p {
+  font-style: italic;
+}
+.contact .content .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+}
+.contact .right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.contact .right-side .input-box input,
+.contact .right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #f0f1f8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+  font-family: "Poppins", sans-serif;
+}
+.contact .right-side .message-box {
+  min-height: 120px;
+}
+.contact .right-side .input-box textarea {
+  padding-top: 6px;
+}
+.contact .right-side button {
+  display: inline-block;
+  margin-top: 12px;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact button:hover {
+  background: #5029bc;
+}
+.contact .social-media {
+  text-align: center;
+  justify-content: center;
+}
+.contact .social-media a i {
+  font-size: 35px;
+  margin: 7px;
+  color: #e02153;
+}
+/*************************** contact content end *************************/
+
+/*************************  FAQ content start ************************/
+/* Style the FAQ section */
+.faq {
+  min-height: 83vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3f2fd;
+  margin: 0;
+  top: 0;
+}
+
+/* Style the accordion container */
+.accordion {
+  max-width: 530px;
+  width: 100%;
+  background: #fff;
+  margin: 0 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.accordion .accordion-content {
+  margin: 10px 0;
+  border-radius: 4px;
+  background: #fff7f0;
+  border: 1px solid #ffd6b3;
+  overflow: hidden;
+}
+.accordion-content:nth-child(2) {
+  background-color: #f0faff;
+  border-color: #cceeff;
+}
+.accordion-content:nth-child(3) {
+  background-color: #fff0f3;
+  border-color: #ffccd6;
+}
+.accordion-content:nth-child(4) {
+  background-color: #f0f0ff;
+  border-color: #ccccff;
+}
+.accordion-content.open {
+  padding-bottom: 10px;
+}
+.accordion-content header {
+  display: flex;
+  min-height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s linear;
+}
+.accordion-content.open header {
+  min-height: 35px;
+}
+.accordion-content header .title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.accordion-content header i {
+  font-size: 15px;
+  color: #333;
+}
+.accordion-content .description {
+  height: 0;
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+  padding: 0 15px;
+  transition: all 0.2s linear;
+}
+
+/********************  FAQ content ends *********************/
+
+/******************************* login content start ***********************/
+
+.login_form .w3l-mockup-form {
+  position: relative;
+  min-height: 88vh;
+  z-index: 0;
+  justify-content: center;
+  background-image: url(../images/JA1HOME4.jpg);
+  padding: 40px 50px;
+  flex-wrap: wrap;
+  background-position: center center;
+}
+
+.login_form .container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.login_form .content-wthree {
+  flex-basis: 60%;
+  margin-left: 20%;
+  -webkit-flex-basis: 60%;
+  box-sizing: border-box;
+  padding: 3em 4em;
+  background: #fff;
+  border: 2px solid black;
+  box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.login_form .w3l-mockup-form .main-mockup {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin: 40px 0;
+}
+
+.login_form .w3l-mockup-form form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.login_form .social-icons {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.login_form .social-icons a {
+  text-decoration: none;
+  color: red;
+}
+.login_form .social-icons a:hover {
+  text-decoration: underline;
+}
+
+.login_form .w3l-mockup-form h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: #3b3663;
+}
+
+.login_form .w3l-mockup-form h2 {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #3b3663;
+}
+
+.login_form .w3l-mockup-form input {
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #999;
+  text-align: left;
+  padding: 14px 20px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  transition: 0.3s all ease;
+}
+
+.login_form .w3l-mockup-form input:focus {
+  border-color: #4c3c3c;
+}
+
+.login_form .w3l-mockup-form button {
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  background: #e02153;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 15px;
+  font-weight: 500;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+
+.login_form .w3l-mockup-form button:hover {
+  background: #9e0c33d5;
+}
+
+.login_form .forgot-pass {
+  margin-bottom: 15px;
+  display: block;
+  text-align: right;
+}
+.login_form .forgot-pass a {
+  text-decoration: none;
+  color: red;
+}
+.login_form .forgot-pass a:hover {
+  text-decoration: underline;
+  color: red;
+}
+/*********************** login content end *************************/
+
+/****************************** join content start *************************/
+
+#join {
+  background-image: url(../images/JA1HOME3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10%;
+}
+
+#join .join-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#join .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  margin-left: 40px;
+  border: 2px solid black;
+  background-color: #ffffff;
+  padding: 30px;
+  padding-right: 90px; /* Added padding to the right side */
+  border-radius: 10px;
+  position: relative;
+}
+
+#join .title {
+  font-size: 25px;
+  color: #e02153;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+#join .message,
+#join .signin {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+}
+#join .flex {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+}
+
+#join .form label {
+  position: relative;
+}
+
+#join .form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 30px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+#join .form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+#join .form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+  color: black;
+}
+
+#join .form label .input:focus + span,
+#join .form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+#join .form label .input:valid + span {
+  color: rgb(0, 0, 0);
+}
+#join .form select {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#join .submit {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+  width: 55%;
+  margin-left: 30%;
+}
+
+#join .submit:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+#join .tagline {
+  padding: 0 22px;
+}
+#join .tagline h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Nunito", sans-serif;
+}
+
+/******************************* join content end **************************/
+
+/****************** section about content ****************************/
+
+#reservation-events {
+  background-image: url(../images/JA1HOME2.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10%;
+}
+
+#reservation-events .reservation-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#reservation-events .title-heading {
+  text-align: center;
+  padding-bottom: 15px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+}
+#reservation-events .reservation-container .box {
+  margin-bottom: 13px;
+  background-color: #33333396;
+  border-radius: 15px;
+  width: 340px;
+  height: 450px;
+  margin: 10px;
+}
+#reservation-events .reservation-container .box-card {
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 10px;
+}
+#reservation-events .reservation-container .card-1 {
+  background-image: url(../images/birthday.jpg);
+  height: 63%;
+}
+#reservation-events .reservation-container .card-2 {
+  background-image: url(../images/wedding.jpg);
+  height: 63%;
+}
+#reservation-events .reservation-container .card-3 {
+  background-image: url(../images/youth\ service.jpg);
+  height: 63%;
+}
+#reservation-events .reservation-container .card-4 {
+  background-image: url(../images/house-blessing.jpg);
+  height: 63%;
+}
+
+#reservation-events .reservation-container .box h3 {
+  padding: 10px;
+  color: #000;
+}
+#reservation-events .reservation-container .box p {
+  padding: 10px;
+  color: #000;
+}
+#reservation-events .reservation-container .card a {
+  background-color: #e02153;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  margin: 10px 30px 0 30px;
+}
+#reservation-events .box:hover {
+  background-color: #4c3c3c;
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.2s ease;
+}
+#reservation-events .reservation-container .box h3 {
+  color: white;
+  padding: 15px 0 10px 0;
+}
+#reservation-events .reservation-container .box p {
+  color: white;
+  padding-bottom: 20px;
+}
+#reservation-events .reservation-container .box button {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 50px;
+  background: #e02154ad;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+#reservation-events .reservation-container .box button:hover {
+  color: #e02153;
+  background: #ffffff76;
+}
+/*********************************** reservation-events content ends *******************************/
+
+/*********************************** events-form content start *******************************/
+
+#events-form input,
+textarea,
+select,
+button,
+label {
+  color: #000;
+  font-size: 14px;
+}
+#events-form p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  color: #000;
+}
+
+#events-form img {
+  max-width: 100%;
+  max-height: 200%;
+  transition: transform 0.5s;
+}
+
+#events-form ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#events-form a:hover {
+  text-decoration: none;
+}
+
+#events-form :focus {
+  outline: none;
+}
+
+#events-form .wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+#events-form .inner {
+  padding: 10px;
+  background: #fff;
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+}
+
+#events-form .inner .image-holder {
+  width: 50%;
+}
+#events-form .inner form {
+  width: 50%;
+  padding-top: 36px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+#events-form .inner h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 28px;
+  letter-spacing: 3.5px;
+}
+
+#events-form .form-group {
+  display: flex;
+}
+#events-form .form-group input {
+  width: 50%;
+}
+#events-form .form-group input:first-child {
+  margin-right: 25px;
+}
+
+#events-form .form-wrapper {
+  position: relative;
+}
+#events-form .form-wrapper i {
+  position: absolute;
+  bottom: 9px;
+  right: 0;
+}
+
+#events-form .form-control {
+  border: 1px solid #333;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  margin-bottom: 25px;
+  color: #000;
+}
+#events-form .form-control::-webkit-input-placeholder {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-family: arial;
+}
+
+#events-form select {
+  font-size: 14px;
+  font-family: arial;
+  cursor: pointer;
+  padding-left: 20px;
+  color: gray;
+}
+#events-form select option[value=""][disabled] {
+  display: none;
+}
+
+#events-form button {
+  border: none;
+  width: 164px;
+  height: 51px;
+  margin: auto;
+  margin-top: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: #333;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+#events-form button:hover {
+  background: #333333a9;
+}
+
+/*********************************** events-form content ends *******************************/
+
+@media screen and (max-width: 768px) {
+  nav .main-logo {
+    align-items: left;
+    margin: 20px 0;
+  }
+
+  nav .main-logo h2 {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  nav .main-logo span {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  nav .main-logo img {
+    width: 15%;
+  }
+}
+
+/*********************************** responsive menu/dashboard *******************************/
+@media (max-width: 900px) {
+  .menu {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .menu i.fa-times {
+    transform: rotate(90deg);
+  }
+
+  .navbar.nav-toggle {
+    right: 0;
+  }
+  .navbar {
+    position: fixed;
+    top: 6rem;
+    right: -120%;
+    height: 100%;
+    width: 100%;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  }
+  .navbar ul {
+    height: 70%;
+    width: 100%;
+    flex-flow: column;
+    background: #4c3c3c;
+  }
+  .navbar ul li {
+    padding-top: -20px;
+
+    text-align: left;
+    width: 100%;
+    margin: 1.6rem 0;
+    color: #000;
+  }
+  .navbar ul li a {
+    font-size: 3rem;
+    color: #000;
+    display: block;
+  }
+  .navbar ul li a {
+    color: #e02153;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .menu i.fa-times {
+    transform: rotate(90deg);
+  }
+
+  .navbar.nav-toggle {
+    right: 0;
+  }
+  .navbar {
+    position: fixed;
+    top: 6rem;
+    right: -120%;
+    height: 100%;
+    width: 100%;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  }
+  .navbar ul {
+    height: 70%;
+    width: 100%;
+    flex-flow: column;
+    background: #4c3c3c;
+  }
+  .navbar ul li {
+    padding-top: -20px;
+    text-align: left;
+    width: 100%;
+    margin: 1.5rem 0;
+    color: #000;
+  }
+  .navbar ul li a {
+    font-size: 3rem;
+    color: #000;
+    display: block;
+  }
+  .navbar ul li a {
+    color: #e02153;
+  }
+}
+@media (max-width: 400px) {
+  .menu {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .menu i.fa-times {
+    transform: rotate(90deg);
+  }
+
+  .navbar.nav-toggle {
+    right: 0;
+  }
+  .navbar {
+    position: fixed;
+    top: 6rem;
+    right: -120%;
+    height: 100%;
+    width: 100%;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  }
+  .navbar ul {
+    height: 70%;
+    width: 100%;
+    flex-flow: column;
+    background: #4c3c3c;
+  }
+  .navbar ul li {
+    padding-top: -20px;
+
+    text-align: left;
+    width: 100%;
+    margin: 1.6rem 0;
+    color: #000;
+  }
+  .navbar ul li a {
+    font-size: 3rem;
+    color: #000;
+    display: block;
+  }
+  .navbar ul li a {
+    color: #e02153;
+  }
+}
+
+/*********************************** responsive reservation-events *******************************/
+
+@media (max-width: 800px) {
+  /*reservation-events*/
+  .events-box {
+    padding: 20px;
+  }
+  .events-container .title-heading {
+    letter-spacing: 5px;
+  }
+}
+
+/*********************************** responsive join/ministries *******************************/
+
+@media (max-width: 768px) {
+  #join .form {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  #join .title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 375px) {
+  #join .form {
+    width: 50%;
+  }
+
+  #join .title {
+    font-size: 18px;
+  }
+}
+
+/*********************************** responsive login/register/forgot-pass/change-pass *******************************/
+
+/* Existing CSS code ... */
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .login_form .w3l-mockup-form {
+    padding: 20px; /* Reduce padding on smaller screens */
+    height: 94vh; /* Remove min-height for responsiveness */
+    background-size: cover;
+  }
+
+  .login_form .content-wthree {
+    flex-basis: 100%; /* Expand content width to full on smaller screens */
+    margin-left: 0; /* Remove margin */
+    padding: 2em; /* Adjust padding */
+    border-radius: 0; /* Remove border-radius for a simpler design */
+    box-shadow: none; /* Remove shadow */
+  }
+
+  /* Adjust font sizes and spacing */
+  .login_form .w3l-mockup-form h1 {
+    font-size: 30px;
+  }
+
+  .login_form .w3l-mockup-form h2 {
+    font-size: 20px;
+  }
+
+  .login_form .w3l-mockup-form input {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .login_form .w3l-mockup-form button {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+}
+
+/*********************************** responsive contact *******************************/
+
+/*********************************** responsive events-form *******************************/
+
+@media (max-width: 767px) {
+  #events-form .inner {
+    display: block;
+  }
+  #events-form .inner .image-holder {
+    width: 100%;
+  }
+  #events-form .inner form {
+    width: 100%;
+    padding: 40px 0 30px;
+  }
+
+  #events-form button {
+    margin-top: 60px;
+  }
+}
+
+/*********************************** FAQs form *******************************/
+
+/*********************************** responsive contact *******************************/
+
+@media (max-width: 950px) {
+  .contact {
+    min-height: 150vh;
+  }
+  .contact .container {
+    width: 80%;
+    padding: 30px 40px 40px 35px;
+  }
+  .contact .container .content .right-side {
+    width: 75%;
+    margin-left: 55px;
+  }
+}
+@media (max-width: 820px) {
+  .contact .container {
+    margin: 40px 0;
+    height: 90%;
+  }
+  .contact .container .content {
+    flex-direction: column-reverse;
+  }
+  .contact .container .content .left-side {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact .container .content .left-side::before {
+    display: none;
+  }
+  .contact .container .content .right-side {
+    width: 100%;
+    margin-left: -20px;
+  }
+}

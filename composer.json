@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "adyen/php-api-library": "^15.5",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}

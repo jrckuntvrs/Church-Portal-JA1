@@ -1,0 +1,129 @@
+@media (max-width: 900px) {
+  .menu {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .menu i.fa-times {
+    transform: rotate(90deg);
+  }
+
+  .navbar.nav-toggle {
+    right: 0;
+  }
+  .navbar {
+    position: fixed;
+    top: 6rem;
+    right: -120%;
+    height: 100%;
+    width: 100%;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  }
+  .navbar ul {
+    height: 70%;
+    width: 100%;
+    flex-flow: column;
+    background: #4c3c3c;
+  }
+  .navbar ul li {
+    padding-top: -20px;
+
+    text-align: left;
+    width: 100%;
+    margin: 1.6rem 0;
+    color: #000;
+  }
+  .navbar ul li a {
+    font-size: 3rem;
+    color: #000;
+    display: block;
+  }
+  .navbar ul li a {
+    color: #e02153;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .menu i.fa-times {
+    transform: rotate(90deg);
+  }
+
+  .navbar.nav-toggle {
+    right: 0;
+  }
+  .navbar {
+    position: fixed;
+    top: 6rem;
+    right: -120%;
+    height: 100%;
+    width: 100%;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  }
+  .navbar ul {
+    height: 70%;
+    width: 100%;
+    flex-flow: column;
+    background: #4c3c3c;
+  }
+  .navbar ul li {
+    padding-top: -20px;
+    text-align: left;
+    width: 100%;
+    margin: 1.5rem 0;
+    color: #000;
+  }
+  .navbar ul li a {
+    font-size: 3rem;
+    color: #000;
+    display: block;
+  }
+  .navbar ul li a {
+    color: #e02153;
+  }
+}
+@media (max-width: 400px) {
+  .menu {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .menu i.fa-times {
+    transform: rotate(90deg);
+  }
+
+  .navbar.nav-toggle {
+    right: 0;
+  }
+  .navbar {
+    position: fixed;
+    top: 6rem;
+    right: -120%;
+    height: 100%;
+    width: 100%;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  }
+  .navbar ul {
+    height: 70%;
+    width: 100%;
+    flex-flow: column;
+    background: #4c3c3c;
+  }
+  .navbar ul li {
+    padding-top: -20px;
+
+    text-align: left;
+    width: 100%;
+    margin: 1.6rem 0;
+    color: #000;
+  }
+  .navbar ul li a {
+    font-size: 3rem;
+    color: #000;
+    display: block;
+  }
+  .navbar ul li a {
+    color: #e02153;
+  }
+}

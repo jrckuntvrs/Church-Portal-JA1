@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  font-size: 100%;
+  font-size: 16px;
+  --primary-blue: #233975;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-blue);
+}
+a:hover {
+  text-decoration: none;
+}
+.small {
+  text-align: center;
+}
+.split-screen {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.left {
+  height: 200px;
+}
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url(../images/JA1HOME.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.left .copy {
+  color: #fff;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.left p {
+  font-weight: 400;
+}
+.right .copy {
+  color: #000;
+  text-align: center;
+}
+.right .copy p {
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+.right form {
+  width: 328px;
+}
+.left span {
+  background: #e02153;
+  color: #fff;
+  font-size: 2.8rem;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #c4c4c4;
+  padding: 1em;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.cta {
+  text-align: right;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+.signup-btn {
+  display: block;
+  width: 100%;
+  background: var(--primary-blue);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.signup-btn:hover {
+  background: #2c4893;
+  cursor: pointer;
+}
+
+.signup-btn.disabled,
+.signup-btn:disabled {
+  background: #6474a1;
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 837px) {
+  .split-screen {
+    flex-direction: row;
+    height: 100vh;
+  }
+  .left,
+  .right {
+    display: flex;
+    width: 50%;
+    height: auto;
+  }
+}
